@@ -1,4 +1,4 @@
-# 📌 Roadmap – Oportunidades de Automação Fiscal (TO BE)
+# 📌 Processos – Oportunidades de Automação Fiscal (TO BE)
 
 Este documento reúne os processos levantados na descoberta e as etapas estruturadas para avaliação e priorização no contexto fiscal.  
 A estrutura foi organizada em formato macro, sem detalhamento operacional, garantindo visão clara e objetiva do fluxo end-to-end.
