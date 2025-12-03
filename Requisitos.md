@@ -1,5 +1,4 @@
-# 📌 Requisitos – Oportunidades de Automação (Negócio, Validações e Saídas)
-
+# 📌 Requisitos – Oportunidades de Automação
 ## 1. Regras de Negócio
 - Todas as atividades devem ser classificadas com base nos critérios padronizados de complexidade e impacto.
 - Cada processo deve possuir mapeamento mínimo contendo entradas, saídas, responsáveis e frequência.
@@ -9,7 +8,6 @@
 - O processo só é considerado válido quando todas as informações obrigatórias forem preenchidas.
 - Atividades que possuem variações devem ter os cenários mapeados separadamente.
 
----
 
 ## 2. Validações Necessárias
 - Conferência da completude das informações coletadas na etapa de entendimento.
@@ -19,8 +17,6 @@
 - Checagem de possíveis restrições técnicas.
 - Garantia de que não há processos duplicados ou sobrepostos.
 - Validação final da oportunidade com o responsável da área.
-
----
 
 ## 3. Saídas Esperadas
 - Lista consolidada de oportunidades com:
@@ -34,8 +30,6 @@
   - Priorização oficial
 - Mapa priorizado de automações para implantação futura.
 - Indicativos de ganhos estimados (horas, riscos, previsibilidade).
-
----
 
 ## 4. Critérios de Sucesso
 - 100% das oportunidades analisadas seguindo o padrão metodológico.
