@@ -20,9 +20,6 @@ A descoberta contemplou:
 - Construção de ranking final de priorização  
 - Recomendações de próximos passos para evolução da automação
 
-Todo o conteúdo foi elaborado sem citar sistemas ou clientes específicos, preservando a confidencialidade.
-
 ---
 
-## 📁 Estrutura do Repositório
-
+*Todo o conteúdo foi elaborado sem citar sistemas ou clientes específicos, preservando a confidencialidade.
