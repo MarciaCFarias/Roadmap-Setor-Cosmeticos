@@ -1,65 +1,195 @@
-# 📌 Roadmap – Oportunidades de Automação 
+# 📌 Roadmap – Oportunidades de Automação Fiscal (TO BE)
 
-## 1. Fluxo TO BE (Processo Futuro)
-O processo proposto visa padronizar a identificação, análise e priorização de oportunidades de automação na área fiscal, garantindo visão unificada, critérios claros e direcionamento estratégico.  
-O fluxo estruturado TO BE contempla:
-
-1. **Coleta Estruturada de Informações**
-   - Reunião inicial para levantamento do escopo.
-   - Entendimento das atividades atuais da área.
-   - Identificação de entradas, saídas, sistemas envolvidos e responsáveis.
-
-2. **Mapeamento das Atividades**
-   - Detalhamento do passo a passo do processo atual.
-   - Segmentação das atividades por nível de disciplina (manual, semiautomático ou automatizado).
-   - Registro dos pontos de dor, gargalos e riscos.
-
-3. **Análise das Oportunidades**
-   - Classificação das tarefas com potencial de automação.
-   - Avaliação de volume, repetitividade, complexidade e risco operacional.
-   - Enquadramento das atividades em níveis de automação (baixa, média ou alta viabilidade).
-
-4. **Priorização**
-   - Aplicação de critérios de impacto × esforço.
-   - Utilização de parâmetros padronizados para cálculo de pontuação.
-   - Construção de ranking final de oportunidades.
-
-5. **Entrega dos Resultados**
-   - Consolidação das análises em relatório final.
-   - Entrega de mapa de automações priorizadas.
-   - Recomendação de próximos passos para implantação.
+Este documento reúne os processos levantados na descoberta e as etapas estruturadas para avaliação e priorização no contexto fiscal.  
+A estrutura foi organizada em formato macro, sem detalhamento operacional, garantindo visão clara e objetiva do fluxo end-to-end.
 
 ---
 
-## 2. Melhorias Implementadas no Processo
-- Estruturação de uma **metodologia padronizada** para avaliação.
-- Inclusão de matriz de complexidade para decisões mais precisas.
-- Centralização das informações em modelo único para análise fiscal.
-- Identificação explícita dos pontos críticos de operação.
-- Redução do tempo de avaliação por meio de critérios uniformes.
-- Aumento da assertividade na priorização e seleção das automações.
+# 1. Processos Levantados (Etapa de Entendimento)
+
+Durante o discovery foram identificados os seguintes processos ativos da área fiscal:
+
+1. **Gerar Relatório Resumo Fiscal**
+2. **Conciliação Contábil x Conta ICMS**
+3. **Geração de Livros Fiscais DIFAL**
+
+Abaixo, cada processo é apresentado com suas macroetapas, seguindo o formato padrão utilizado em documentações internas.
 
 ---
 
-## 3. Pontos de Atenção / Exceções
-- Processos com dependência de aprovação humana devem ser avaliados caso a caso.
-- Atividades com baixa padronização podem exigir revisão antes da automação.
-- Processos com informações sensíveis requerem validações adicionais.
-- Entradas inconsistentes podem impactar o cálculo de complexidade.
-- Sistemas que não possuem exportação estruturada podem demandar solução híbrida.
-- Mudanças organizacionais podem alterar pontuação e prioridades ao longo do tempo.
+# 2. Macroetapas dos Processos Identificados
+
+## 2.1 Gerar Relatório Resumo Fiscal
+### **2.1.1 Preparar Ambiente**
+- Validar dados e período analisado.
+- Verificar diretórios e arquivos base.
+- Confirmar disponibilidade de informações.
+
+### **2.1.2 Consultar Informações Fiscais**
+- Acessar dados consolidados.
+- Filtrar por período e tipo de operação.
+- Validar consistência dos registros.
+
+### **2.1.3 Gerar Relatório Fiscal**
+- Aplicar filtros e critérios fiscais.
+- Consolidar resultados.
+- Formatá-los conforme padrão.
+
+### **2.1.4 Finalizar e Disponibilizar**
+- Registrar observações relevantes.
+- Salvar o relatório no diretório padrão.
+- Comunicar responsáveis.
 
 ---
 
-## 4. KPI – Indicadores Sugeridos
+## 2.2 Conciliação Contábil x Conta ICMS
+### **2.2.1 Levantar Dados Contábeis**
+- Identificar contas do período.
+- Consultar lançamentos.
+- Validar integridade dos dados.
+
+### **2.2.2 Levantar Dados Fiscais**
+- Consultar movimentações de ICMS.
+- Validar bases utilizadas.
+- Identificar possíveis divergências.
+
+### **2.2.3 Realizar Conciliação**
+- Cruzar dados contábeis x fiscais.
+- Identificar divergências.
+- Classificar diferenças conforme tipo.
+
+### **2.2.4 Consolidar Resultados**
+- Gerar relatório final.
+- Registrar pendências.
+- Encaminhar para validação.
+
+---
+
+## 2.3 Geração de Livros Fiscais DIFAL
+### **2.3.1 Reunir Dados do Período**
+- Levantar operações sujeitas a DIFAL.
+- Validar documentos envolvidos.
+- Garantir consistência da base.
+
+### **2.3.2 Processar Informações**
+- Calcular valores e bases.
+- Classificar operações conforme regra.
+- Preparar dados para geração.
+
+### **2.3.3 Gerar Livro Fiscal**
+- Aplicar layout padrão.
+- Verificar campos obrigatórios.
+- Criar arquivo final.
+
+### **2.3.4 Finalizar**
+- Registrar logs.
+- Salvar arquivo final.
+- Disponibilizar responsáveis.
+
+---
+
+# 3. Fluxo Geral TO BE (12 Etapas)
+
+A seguir, o fluxo completo e padronizado utilizado no discovery:
+
+## **Etapa 1 – Planejamento**
+- Definir escopo.
+- Alinhar responsáveis.
+- Organizar cronograma.
+
+## **Etapa 2 – Levantamento Inicial**
+- Coletar informações básicas.
+- Identificar processos críticos.
+- Registrar demandas principais.
+
+## **Etapa 3 – Entendimento Detalhado**
+- Reuniões com responsáveis.
+- Registro de entradas e saídas.
+- Mapeamento do cenário atual.
+
+## **Etapa 4 – Mapeamento das Atividades**
+- Listar etapas de cada processo.
+- Identificar retrabalhos e riscos.
+- Verificar dependências.
+
+## **Etapa 5 – Classificação das Tarefas**
+- Identificar atividades manuais.
+- Categorizar por tipo (consulta, conferência, extração, cálculo).
+- Avaliar padronização.
+
+## **Etapa 6 – Análise de Viabilidade**
+- Avaliar volume e frequência.
+- Verificar repetitividade.
+- Identificar riscos.
+
+## **Etapa 7 – Análise Técnica**
+- Avaliar complexidade da automação.
+- Verificar restrições técnicas.
+- Validar estabilidade do processo.
+
+## **Etapa 8 – Pontuação e Priorização**
+- Aplicar matriz impacto × esforço.
+- Atribuir pontuação.
+- Calcular viabilidade final.
+
+## **Etapa 9 – Construção do Ranking**
+- Ordenar oportunidades.
+- Identificar quick wins.
+- Analisar retorno.
+
+## **Etapa 10 – Consolidação**
+- Registrar análises.
+- Documentar recomendações.
+- Estimar ganhos.
+
+## **Etapa 11 – Validação**
+- Apresentar resultados.
+- Ajustar pontuações.
+- Registrar aprovações.
+
+## **Etapa 12 – Entrega Final**
+- Entregar o mapa final de oportunidades.
+- Publicar documentos.
+- Orientar próximos passos.
+
+---
+
+# 4. Melhorias Implementadas
+- Padronização da metodologia de análise.
+- Redução de subjetividade nas decisões.
+- Ganho de clareza sobre processos críticos.
+- Criação de estrutura replicável para novos levantamentos.
+- Consolidação das informações em modelo único.
+- Maior previsibilidade e organização da análise fiscal.
+
+---
+
+# 5. Pontos de Atenção
+- Regras muito interpretativas podem limitar automação.
+- Mudanças constantes exigem revisões periódicas.
+- Falta de padronização reduz viabilidade.
+- Processos dependentes de validação humana têm baixa automação imediata.
+
+---
+
+# 6. KPIs Sugeridos
+
 | Indicador | Descrição | Objetivo |
 |----------|-----------|----------|
-| **% de processos mapeados** | Quantidade mapeada vs. total previsto | Acompanhar avanço do discovery |
-| **Oportunidades identificadas** | Nº total de oportunidades levantadas | Medir potencial de automação |
-| **Índice de viabilidade** | Média geral de viabilidade das oportunidades | Avaliar maturidade do pipeline |
-| **Tempo médio de análise** | Etapas concluídas por oportunidade | Eficiência do time de descoberta |
-| **Impacto estimado** | Redução potencial de horas manuais | Base para priorização estratégica |
-| **Aderência ao modelo** | % de análises seguindo metodologia padrão | Garantir consistência técnica |
+| % de Processos Mapeados | Quantidade mapeada x planejado | Monitorar avanço |
+| Nº de Oportunidades Identificadas | Total de oportunidades | Medir potencial |
+| Índice de Viabilidade | Média geral das pontuações | Avaliar maturidade |
+| Tempo Médio de Análise | Tempo por oportunidade | Medir eficiência |
+| Impacto Estimado | Redução potencial de horas | Auxiliar priorização |
+| Aderência ao Modelo | Conformidade com metodologia | Garantir consistência |
+
+---
+
+# 7. Observações Gerais
+- O fluxo TO BE deve ser revisto periodicamente.
+- A documentação auxilia decisões estratégicas e técnicas.
+- O ranking final direciona, mas não substitui análise de desenvolvimento.
+- A estrutura pode ser aplicada a outras áreas além do fiscal.
 
 ---
 
